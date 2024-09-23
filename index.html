@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>No te vayas de mi</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="assets/icons/Logo.png" alt=""></a>
+            </div>
+            <div class="navbar">
+                <div class="navbar-fondo">
+                    <ul>
+                        <li><a href="#infoPagina">¿Quiénes somos?</a></li>
+                        <li><a href="#contactar">Contáctanos</a></li>
+                        <li><a href="#">Iniciar Sesión</a></li>
+                        <li><a href="#">Registrarse</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-contenedor">
+            <div class="banner-imagen"></div>
+            <div class="banner-figura">
+                <div class="banner-info">
+                    <article>
+                        <p>Bienvenidos a</p>
+                        <h1>No te vayas de mi</h1>
+
+                        <div class="banner-informacion">
+                            Unite a nuestra comunidad, juntos podemos ayudar a encontrar mascotas perdidas, brindar
+                            refugio a los sin hogar y crear un mundo donde cada animal tenga una familia que lo ame.
+                        </div>
+
+                        <div class="Banner-boton">
+                            <button><a href="#">Ingresar</a></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="infoPagina" class="QuienesSomos">
+            <article>
+                En No te vayas de mi, entendemos lo importante que son las mascotas para sus dueños. Por eso, hemos
+                creado un espacio donde puedes publicar información sobre mascotas perdidas, reportar avistamientos y
+                conectar con refugios de animales para adopción y donaciones. <br><br>
+                Nuestra misión es reunir a las mascotas perdidas con sus familias y fomentar un entorno de apoyo para
+                aquellos que buscan dar un hogar a un animal en necesidad. Creemos en la comunidad y en el poder de la
+                cooperación para hacer una diferencia significativa en la vida de las mascotas y sus dueños. <br><br>
+                En nuestra plataforma, podrás: <br><br>
+
+                <ul>
+                    <li>
+                        <p>Publicar anuncios sobre tu mascota perdida con detalles y fotos.</p>
+                    </li>
+                    <li>
+                        <p>Reportar avistamientos de mascotas que podrían estar extraviadas.</p>
+                    </li>
+                    <li>
+                        <p>Conectar con refugios de animales que tienen mascotas en adopción.</p>
+                    </li>
+                    <li>
+                        <p>Donar a refugios y organizaciones que trabajan incansablemente para cuidar de las mascotas
+                            sin hogar.</p>
+                    </li>
+                    <li>
+                        <p>Recibir notificaciones si estás en la zona donde se ha perdido una mascota, ayudando a
+                            aumentar las posibilidades de un reencuentro exitoso.</p> <br>
+                    </li>
+                </ul>
+
+                Te invitamos a explorar nuestro sitio y unirte a nuestra comunidad dedicada a la protección y bienestar
+                de las mascotas. Juntos, podemos hacer que muchas colitas vuelvan a moverse felices en sus hogares. ¡No
+                dudes en registrarte y comenzar hoy mismo!
+
+            </article>
+        </section>
+
+        <section class="formulario" >
+
+			<h2>Contactanos</h2>
+			<form name="formu" method="POST" action="enviar4.php"  >
+
+				<input type="text" name="nom" id="" placeholder="Ingrese su nombre" required>
+
+				<input type="email" name="correo" id="" placeholder="ingrese su correo electrónico" required >
+
+				<textarea name="msg" placeholder="deje su mensaje aquí...." rows="7"></textarea>
+
+				<button type="submit" class="guardar" >Enviar la consulta</button>
+				<button type="reset" class="cancelar" >Borrar los datos</button>
+				
+
+
+			</form>
+			<a name="contactanos"></a>
+		</section>
+
+    </main>
+
+
+
+    <footer>
+        <div class="Redes" id="contactar">
+
+            <div class="Redes-iconos">
+                <img src="assets/icons/Instagram-Logo.png" alt="Logo de instagram">
+                <img src="assets/icons/facebook-Logo.png" alt="Logo de facebook">
+                <img src="assets/icons/whatsapp-Logo.png" alt="Logo de whatsapp">
+            </div>
+            <div class="Redes-info">
+                <p>@NoTeVayasDeMi</p>
+                <p>@NoTeVayasDeMi</p>
+                <p>+543408722809</p>
+            </div>
+
+        </div>
+
+        <div class="DerechosReservados">
+            <p>&nbsp;&nbsp;&nbsp;@ 2024-No te vayas de mi</p>
+            <p>Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
